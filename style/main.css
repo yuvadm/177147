@@ -75,7 +75,7 @@ h1.title {
     font-size: 13px;
     line-height: 13px;
     text-align: center;
-    color: #eee4da; }
+    color: #eef4da; }
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
@@ -165,7 +165,7 @@ hr {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(238, 228, 218, 0.5);
+    background: rgba(238, 244, 218, 0.5);
     z-index: 100;
     text-align: center;
     -webkit-animation: fade-in 800ms ease 1200ms;
@@ -196,7 +196,7 @@ hr {
       .game-container .game-message a.keep-playing-button {
         display: none; }
     .game-container .game-message.game-won {
-      background: rgba(237, 194, 46, 0.5);
+      background: rgba(205, 242, 62, 0.5);
       color: #f9f6f2; }
       .game-container .game-message.game-won a.keep-playing-button {
         display: inline-block; }
@@ -222,7 +222,7 @@ hr {
   margin-right: 15px;
   float: left;
   border-radius: 3px;
-  background: rgba(238, 228, 218, 0.35); }
+  background: rgba(238, 244, 218, 0.35); }
   .grid-cell:last-child {
     margin-right: 0; }
 
@@ -309,72 +309,84 @@ hr {
   transition-property: transform; }
   .tile .tile-inner {
     border-radius: 3px;
-    background: #eee4da;
+    background: #eef4da;
     text-align: center;
     font-weight: bold;
     z-index: 10;
     font-size: 55px; }
-  .tile.tile-2 .tile-inner {
-    background: #eee4da;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
-  .tile.tile-4 .tile-inner {
-    background: #ede0c8;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
-  .tile.tile-8 .tile-inner {
+  .tile.tile-3 .tile-inner {
+    background: #eef4da;
+    box-shadow: 0 0 30px 10px rgba(224, 247, 134, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+  .tile.tile-9 .tile-inner {
+    background: #eaf3ca;
+    box-shadow: 0 0 30px 10px rgba(224, 247, 134, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+  .tile.tile-27 .tile-inner {
     color: #f9f6f2;
-    background: #f2b179; }
-  .tile.tile-16 .tile-inner {
+    background: #e7f3ba;
+    box-shadow: 0 0 30px 10px rgba(224, 247, 134, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+  .tile.tile-81 .tile-inner {
     color: #f9f6f2;
-    background: #f59563; }
-  .tile.tile-32 .tile-inner {
+    background: #e4f3ab;
+    box-shadow: 0 0 30px 10px rgba(224, 247, 134, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+  .tile.tile-243 .tile-inner {
     color: #f9f6f2;
-    background: #f67c5f; }
-  .tile.tile-64 .tile-inner {
-    color: #f9f6f2;
-    background: #f65e3b; }
-  .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
-    background: #edcf72;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
+    background: #e0f39b;
+    box-shadow: 0 0 30px 10px rgba(224, 247, 134, 0.07937), inset 0 0 0 1px rgba(255, 255, 255, 0.04762);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
-      .tile.tile-128 .tile-inner {
+      .tile.tile-243 .tile-inner {
         font-size: 25px; } }
-  .tile.tile-256 .tile-inner {
+  .tile.tile-729 .tile-inner {
     color: #f9f6f2;
-    background: #edcc61;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
+    background: #ddf38c;
+    box-shadow: 0 0 30px 10px rgba(224, 247, 134, 0.15873), inset 0 0 0 1px rgba(255, 255, 255, 0.09524);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
-      .tile.tile-256 .tile-inner {
+      .tile.tile-729 .tile-inner {
         font-size: 25px; } }
-  .tile.tile-512 .tile-inner {
+  .tile.tile-2187 .tile-inner {
     color: #f9f6f2;
-    background: #edc850;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
-    font-size: 45px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-512 .tile-inner {
-        font-size: 25px; } }
-  .tile.tile-1024 .tile-inner {
-    color: #f9f6f2;
-    background: #edc53f;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
+    background: #daf27c;
+    box-shadow: 0 0 30px 10px rgba(224, 247, 134, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
-      .tile.tile-1024 .tile-inner {
+      .tile.tile-2187 .tile-inner {
         font-size: 15px; } }
-  .tile.tile-2048 .tile-inner {
+  .tile.tile-6561 .tile-inner {
     color: #f9f6f2;
-    background: #edc22e;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    background: #d6f26c;
+    box-shadow: 0 0 30px 10px rgba(224, 247, 134, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
-      .tile.tile-2048 .tile-inner {
+      .tile.tile-6561 .tile-inner {
+        font-size: 15px; } }
+  .tile.tile-19683 .tile-inner {
+    color: #f9f6f2;
+    background: #d3f25d;
+    box-shadow: 0 0 30px 10px rgba(224, 247, 134, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
+    font-size: 35px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-19683 .tile-inner {
+        font-size: 15px; } }
+  .tile.tile-59049 .tile-inner {
+    color: #f9f6f2;
+    background: #d0f24d;
+    box-shadow: 0 0 30px 10px rgba(224, 247, 134, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
+    font-size: 35px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-59049 .tile-inner {
+        font-size: 15px; } }
+  .tile.tile-177147 .tile-inner {
+    color: #f9f6f2;
+    background: #cdf23e;
+    box-shadow: 0 0 30px 10px rgba(224, 247, 134, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 35px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-177147 .tile-inner {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
-    background: #3c3a32;
+    background: #3a3c33;
     font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
@@ -536,7 +548,7 @@ hr {
       right: 0;
       bottom: 0;
       left: 0;
-      background: rgba(238, 228, 218, 0.5);
+      background: rgba(238, 244, 218, 0.5);
       z-index: 100;
       text-align: center;
       -webkit-animation: fade-in 800ms ease 1200ms;
@@ -567,7 +579,7 @@ hr {
         .game-container .game-message a.keep-playing-button {
           display: none; }
       .game-container .game-message.game-won {
-        background: rgba(237, 194, 46, 0.5);
+        background: rgba(205, 242, 62, 0.5);
         color: #f9f6f2; }
         .game-container .game-message.game-won a.keep-playing-button {
           display: inline-block; }
@@ -593,7 +605,7 @@ hr {
     margin-right: 10px;
     float: left;
     border-radius: 3px;
-    background: rgba(238, 228, 218, 0.35); }
+    background: rgba(238, 244, 218, 0.35); }
     .grid-cell:last-child {
       margin-right: 0; }
 
